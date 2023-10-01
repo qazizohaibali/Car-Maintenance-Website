@@ -1,4 +1,13 @@
 /********** Template CSS **********/
+
+/* Fonts Styling */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Handlee&family=Playfair+Display+SC:wght@400;700&family=Roboto:wght@300;400&family=Sacramento&display=swap");
+
+/* font-family: 'Caveat', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Sacramento', cursive; */
+
 :root {
   --primary: #d81324;
   --secondary: #0b2154;
@@ -388,21 +397,44 @@
   }
 }
 
-
-.navbar-light .navbar-toggler{
-    border: 1px solid rgb(212, 211, 211) !important;
-    color: white;
-    border-radius: 5px !important;
+.navbar-light .navbar-toggler {
+  border: 1px solid rgb(212, 211, 211) !important;
+  color: white;
+  border-radius: 5px !important;
 }
 
-.navbar-toggler:focus{
-    outline: none !important;
+.navbar-toggler:focus {
+  outline: none !important;
 }
-.navbar-toggler-icon{
-    height: 1.8em !important;
-    /* width: 1.2em !important; */
+.navbar-toggler-icon {
+  height: 1.8em !important;
+  /* width: 1.2em !important; */
 }
 
-.testimonial-carousel .owl-dot{
-    border-radius: 40%;
+.testimonial-carousel .owl-dot {
+  border-radius: 40%;
+}
+
+/* 
+
+font-family: 'Handlee', cursive;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Sacramento', cursive; 
+*/
+
+.my-title {
+  font-family: "Handlee", cursive;
+}
+.my-heading {
+  font-family: "Playfair Display SC", serif;
+}
+
+.reviews {
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.para {
+  font-family: "Noto Sans NKo Unjoined", sans-serif;
 }
