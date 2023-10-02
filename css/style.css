@@ -438,3 +438,10 @@ font-family: 'Sacramento', cursive;
 .para {
   font-family: "Noto Sans NKo Unjoined", sans-serif;
 }
+
+.cards-button{
+  cursor: pointer;
+}
+.cards-button:hover{
+  color: red !important;
+}
